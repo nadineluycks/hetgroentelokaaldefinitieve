@@ -1,0 +1,77 @@
+* {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    background-image: url(../images/1x/middel-2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+img {
+    max-width: 100%;
+}
+
+main p {
+    color:rgb(043, 103, 056);
+    background-color: rgb(175, 199, 174);
+    margin: 1em;
+    padding: 2em;
+    border-radius: 2em;
+}
+
+h2{
+
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    padding: 1em;
+    margin: -1em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    gap: 2em;
+    padding-right: 2.5em;
+
+}
+
+.index {
+    width: 60%;
+    margin: auto;
+    padding: 1em;
+    color:rgb(043, 103, 056);
+    background-color: rgb(175, 199, 174);
+    border-radius: 2em;
+}
+
+.index p {
+    margin: 0;
+    padding: 0;
+}
+.index h2 {
+    margin-top: 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.recepten {
+    width: 60%;
+    margin: auto;
+}
+.werkwijze {
+    color:rgb(043, 103, 056);
+   
+}
